@@ -1,0 +1,5 @@
+"Signal","ComparisonType","Value","ValueType"
+"ATL2","Equal","LOW","String"
+"ATL10","GreaterThan","2400","Integer"
+"ATL6","GreaterThan","2400","Integer"
+"ATL3","GreaterThan","2017-04-10 12:02:41","DateTime"
