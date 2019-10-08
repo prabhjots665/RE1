@@ -168,7 +168,7 @@ namespace RE1
                             var comparisonType = data[1].Split(Constants.ObjectWrapper)[1];
                             var valueType = data[3].Split(Constants.ObjectWrapper)[1];
 
-                            if (valueType == "Int32") valueType = "Decimal";
+                            if (valueType == "Integer") valueType = "Decimal";
 
                             var typeInfo = Type.GetType($"System.{valueType}");
                             dynamic value = null;
